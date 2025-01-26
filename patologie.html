@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="images/logoAB.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>studio podologico AB</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  </head>
+  <body class="overflow-x-hidden">
+    <div id="nav-icon">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+      <nav class="container-fluid bg-dark">
+        <div class="text-white container-fluid">
+          <div class="row vh-100 align-items-center">
+            <div class="col-12">
+              <div class="text-center display-2"><a class="navbar-link" href="./index.html">HOME</a></div>
+              <div class="text-center display-2"><a class="navbar-link" href="./patologie.html">PATOLOGIE</a></div>
+              <div class="text-center display-2"><a class="navbar-link" href="./chiSono.html">CHI SONO</a></div>
+              <div class="text-center display-2"><a class="navbar-link" href="./loStudio.html">LO STUDIO</a></div>
+              <div class="text-center display-2"><a class="navbar-link" href="./contatti.html">CONTATTI</a></div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <main class="container-fluid vh-100 bg-dark overflow-hidden">
+          <section class="row pt-5">
+            <div class="col-12">
+              <h1 class="text-white display-2 text-center title">PATOLOGIE</h1>
+              <div thumbsSlider="" class="swiper mySwiper mt-4">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+                  </div>
+                </div>
+              </div> 
+              <div class="swiper mySwiper2">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="text">
+                      <h2 class="display-6">IPERCHERATOSI</h2>
+                      <p class="px-5 fw-light">Le ipercheratosi, come calli, duroni e occhi di pernice, sono ispessimenti cutanei che proteggono da pressioni e sfregamenti. Rimuoverle è spesso inutile o dannoso poiché eliminano una difesa naturale del corpo. Il dolore deriva da infiammazioni sottostanti. Una diagnosi accurata è essenziale per trattare le cause e ottenere una soluzione efficace e duratura.</p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="text">
+                      <h2 class="display-6">ONICOCRIPTOSI</h2>
+                      <p class="px-5 fw-light">L’onicocriptosi, o unghia incarnita, colpisce spesso l’alluce causando dolore, infiammazione, talvolta infezione e granuloma. È dovuta a tagli errati, traumi, calzature inadatte o problemi di appoggio. La diagnosi chiarisce le cause; il trattamento prevede la rimozione della lamina interessata, medicazioni e monitoraggio fino alla guarigione e completa ricrescita dell’unghia.</p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="text">
+                      <h2 class="display-6">ALLUCE VALGO</h2>
+                      <p class="px-5 fw-light">L’alluce valgo è una rotazione del primo dito, con l’unghia rivolta verso la linea del corpo. Non va confuso con l’abduzione (deviazione verso le altre dita) o con la cipolla (sporgenza del metatarso). È causato da un appoggio scorretto. La chirurgia non elimina la causa; fondamentali sono plantari su misura per prevenire o rallentare l’evoluzione.</p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="text">
+                      <h2 class="display-6">METATARSALGIA</h2>
+                      <p class="px-5 fw-light">La metatarsalgia è un'infiammazione delle teste dei metatarsi, con dolore plantare all’avampiede, spesso accompagnato da gonfiore e ispessimenti cutanei. È causata da appoggi errati, traumi, calzature inadeguate o sovrappeso. Il trattamento conservativo, con scarpe adeguate, bendaggi funzionali e plantari su misura, offre risultati eccellenti se applicato correttamente.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+              </div>           
+            </div>
+            <div class="col-12">
+              
+            </div>
+          </section>
+      </main>
+      <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 10,
+      slidesPerView: 4,
+      freeMode: true,
+      watchSlidesProgress: true,
+    });
+    var swiper2 = new Swiper(".mySwiper2", {
+      spaceBetween: 10,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      thumbs: {
+        swiper: swiper,
+      },
+    });
+  </script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script type="module" src="/src/main.js"></script>
+    <script type="module" src="/src/patologie.js"></script>
+  </body>
+</html>

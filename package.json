@@ -1,0 +1,23 @@
+{
+  "name": "braga_vanilla",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "sass": "^1.83.0",
+    "vite": "^6.0.5"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.3",
+    "gsap": "^3.12.5",
+    "jquery": "^3.7.1",
+    "owl.carousel": "^2.3.4",
+    "swiper": "^11.2.1"
+  }
+}
